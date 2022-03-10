@@ -1,0 +1,22 @@
+{
+    "name": "treblle/table",
+    "description": "This is will create essential tables for treblle",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+
+       { 
+        "name ":"akhil",
+        "email": "akhil@treblle.com"
+    
+       }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Treblle\\Table\\": "src/"
+        }
+    }
+}

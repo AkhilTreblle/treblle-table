@@ -4,12 +4,10 @@
     "type": "library",
     "license": "MIT",
     "authors": [
-
-       { 
-        "name ":"akhil",
-        "email": "akhil@treblle.com"
-    
-       }
+        {
+            "name": "Akhil ",
+            "email": "akhil@treblle.com"
+        }
     ],
     "minimum-stability": "dev",
     "require": {},

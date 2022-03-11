@@ -18,5 +18,13 @@
         "psr-4": {
             "Treblle\\Table\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Treblle\\Table\\TableServiceProvider"
+            ]
+            
+        }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Treblle\Table;
+namespace Trb\Table;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 
 ## Introduction
 
-Treblle is a powerful API Management tool
+Trbtable will create tables .
 
 ## Official Documentation

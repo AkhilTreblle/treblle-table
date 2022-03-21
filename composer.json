@@ -1,5 +1,5 @@
 {
-    "name": "treblle/table",
+    "name": "trb/table",
     "description": "This is will create essential tables for treblle",
     "type": "library",
     "license": "MIT",
@@ -14,21 +14,17 @@
 
     "autoload": {
         "psr-4": {
-            "Treblle\\Table\\": "src/"
+            "Trb\\Table\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Treblle\\Table\\TableServiceProvider"
+                "Trb\\Table\\TableServiceProvider"
             ]
             
         }
-    },
+    }
     
-        "repositories": [
-            {"type": "composer", "url": "https://repo.packagist.com/akhil/"},
-            {"packagist.org": false}
-        ]
-    
+      
 }

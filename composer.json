@@ -24,7 +24,13 @@
             ]
             
         }
-    }
+    },
+    
+        "repositories": [
+            {"type": "composer", "url": "https://repo.packagist.com/akhil/"},
+            {"packagist.org": false}
+        ]
+    
     
       
 }

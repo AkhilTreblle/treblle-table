@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Treblle extends Model
+class UserDetail extends Model
 {
   use HasFactory;
 
@@ -14,13 +14,14 @@ class Treblle extends Model
   protected $guarded = [];
 
   protected $fillable = [
-    'name',
-    'email',
+      'treblle_id',
+    'bio',
+   
     
     
 ];
-public function user_details()
+public function treblle()
     {
-        return $this->hasMany(UserDetail::class);
+        return $this->belongsTo(Treblle::class);
     }
 }
